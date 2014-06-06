@@ -1,30 +1,46 @@
-call pathogen#infect()
-syntax on
+" .vimrc
+" John Poelstra
+" poelstra@fedoraproject.org
 
-set ignorecase
-set linebreak
-set tw=0
+" Enable Pathogen http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+call pathogen#infect()
+
+" Avoid RSI by making ESCAPE key easier
 imap jj <Esc>
 
+" indention and wrapping
+set linebreak
+set tw=0
 set wrapmargin=0
 set tw=0
 set ic
-set cinoptions+={2
-set cindent shiftwidth=4
-"colorscheme koehler
-set noautoindent
-set softtabstop=4
-set expandtab
-set incsearch
-
-" navigate split window with ctrl+{j,k}
-map <C-J> <C-W>j
-map <C-K> <C-W>k
 
 " turn off auto-indent for annoying comment pasting
 " http://amix.dk/blog/post/19083
 :set pastetoggle=<F3> 
 
+
+" searching 
+set incsearch
+set ignorecase
+
+syntax on
+
+" got these somewhere... don't remember what they do
+set cinoptions+={2
+set cindent shiftwidth=4
+set noautoindent
+set softtabstop=4
+set expandtab
+
+"colorscheme zenburn
+colorscheme koehler
+
+" navigate split window with ctrl+{j,k}
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+
+" Adds a status bar with file name and real time word count
 " original source: http://cromwell-intl.com/linux/vim-word-count.html
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Here begins my automated wordcount addition.
