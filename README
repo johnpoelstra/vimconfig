@@ -1,3 +1,7 @@
+Inspired by this post with instructions including how to set up your own vim settings in github and manage with Pathogen
+
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
 Installation:
 
     git clone git://github.com/johnpoelstra
