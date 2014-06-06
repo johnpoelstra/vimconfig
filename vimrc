@@ -1,3 +1,6 @@
+call pathogen#infect()
+syntax on
+
 set ignorecase
 set linebreak
 set tw=0
@@ -13,7 +16,6 @@ set noautoindent
 set softtabstop=4
 set expandtab
 set incsearch
-syntax on
 
 " navigate split window with ctrl+{j,k}
 map <C-J> <C-W>j
