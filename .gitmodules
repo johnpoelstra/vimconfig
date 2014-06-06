@@ -1,3 +1,0 @@
-[submodule "bundle/rstatusline"]
-	path = bundle/rstatusline
-	url = git@github.com:vim-scripts/rstatusline.git
