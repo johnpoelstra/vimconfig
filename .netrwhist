@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/jp/Documents/mac-sync'
+let g:netrw_dirhist_2='/Users/jp/Documents/mac-sync/personal'
+let g:netrw_dirhist_3='/Users/jp/Documents/mac-sync'
+let g:netrw_dirhist_4='/Users/jp/Documents/mac-sync/personal'
+let g:netrw_dirhist_5='/Users/jp/Documents/mac-sync/personal/unsorted-rht-pictures'
+let g:netrw_dirhist_6='/Users/jp/junk'
+let g:netrw_dirhist_7='/Users/jp'

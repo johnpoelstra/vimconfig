@@ -1,0 +1,6 @@
+Installation:
+
+    git clone git://github.com/johnpoelstra
+
+Create symlinks:
+   ln -s 
