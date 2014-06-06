@@ -8,6 +8,9 @@ call pathogen#infect()
 " Avoid RSI by making ESCAPE key easier
 imap jj <Esc>
 
+" make hilighted search results easier to see in terminal w/ black background
+set background=dark
+
 " indention and wrapping
 set linebreak
 set tw=0
